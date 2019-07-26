@@ -152,7 +152,7 @@ def getSpeechFromText():
         audioOut = ttsService.synthesize(
             inputText,
             'audio/wav',
-            'en-US_AllisonVoice').get_result()
+            'ja-JP_EmiVoice').get_result()
 
         data = audioOut.content
 
